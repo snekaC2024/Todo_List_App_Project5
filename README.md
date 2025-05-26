@@ -29,7 +29,7 @@ A simple, beautiful, and fully functional **To-Do List App** built using HTML, C
 
 ## 📹 Demo Video
 
-[Watch Project Demo on YouTube](https://www.youtube.com/your-video-link-here)
+[Watch Project Demo on YouTube]([https://www.youtube.com/your-video-link-here](https://youtu.be/JPOHGyXWYQs))
 
 ---
 
