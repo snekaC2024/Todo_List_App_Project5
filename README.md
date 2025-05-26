@@ -4,8 +4,6 @@
 
 ![To-Do List App Preview](screenshot.png)
 
----
-
 A simple, beautiful, and fully functional **To-Do List App** built using HTML, CSS, and JavaScript. It supports task creation, deletion, completion marking, and uses localStorage for saving tasks even after page reloads.
 
 ---
