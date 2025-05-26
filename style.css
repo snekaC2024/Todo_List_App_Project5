@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fef6e4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+}
+
+h1 {
+  color: #001858;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #f582ae;
+  border-radius: 10px;
+  outline: none;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px 15px;
+  background: #fe3481;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #e04c8c;
+}
+
+#taskList {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #f3d2c1;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li.completed {
+  text-decoration: line-through;
+  background-color: #b9fbc0;
+}
+
+li button {
+  background: transparent;
+  border: none;
+  color: #001858;
+  font-weight: bold;
+  cursor: pointer;
+}
